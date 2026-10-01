@@ -10,6 +10,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.material3.Text
+import androidx.compose.ui.Alignment
+import androidx.compose.foundation.layout.Box
 
 @Composable
 fun TataletakColumn(modifier: Modifier = Modifier) {
@@ -29,6 +31,18 @@ fun TataletakRow(modifier: Modifier = Modifier) {
         Text(text = "Komponen2")
         Text(text = "Komponen3")
         Text(text = "Komponen4")
+    }
+}
+@Composable
+fun TataletakBox(modifier: Modifier = Modifier) {
+    Box (modifier = modifier.fillMaxWidth()
+        .fillMaxWidth(), contentAlignment = Alignment.Center
+    ) {
+        Text(text = "Box 1")
+        Text(text = "Column 1")
+        Text(text = "Row 1")
+        Text(text = "Box 2")
+        Text(text = "Column 2")
     }
 }
 
