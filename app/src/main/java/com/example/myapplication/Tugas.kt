@@ -75,4 +75,12 @@ fun Tugas(modifier: Modifier = Modifier) {
                 color = Color.Black,
                 modifier = Modifier.padding(top = 8.dp, bottom = 32.dp)
             )
+            Box(
+                modifier = Modifier
+                    .size(200.dp)
+                    .clip(CircleShape)
+                    .background(Color.White)
+                    .border(4.dp, Color.White, CircleShape),
+                contentAlignment = Alignment.Center
+            )
     }
