@@ -42,4 +42,10 @@ fun Tugas(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue
             )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 16.sp,
+                color = Color.Blue,
+                modifier = Modifier.padding(bottom = 24.dp)
+            )
     }
