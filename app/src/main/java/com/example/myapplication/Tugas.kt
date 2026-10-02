@@ -48,4 +48,11 @@ fun Tugas(modifier: Modifier = Modifier) {
                 color = Color.Blue,
                 modifier = Modifier.padding(bottom = 24.dp)
             )
+            Image(
+                painter = painterResource(id = R.drawable.Heya),
+                contentDescription = "Logo HeyaCamp",
+                modifier = Modifier
+                    .size(120.dp)
+                    .padding(bottom = 24.dp)
+            )
     }
