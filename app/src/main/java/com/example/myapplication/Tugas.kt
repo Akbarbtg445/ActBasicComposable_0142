@@ -70,7 +70,7 @@ fun Tugas(modifier: Modifier = Modifier) {
                 modifier = Modifier.padding(top = 4.dp)
             )
             Text(
-                text = "20000140001",
+                text = "20240140142",
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black,
