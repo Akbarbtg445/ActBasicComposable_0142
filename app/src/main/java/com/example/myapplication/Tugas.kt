@@ -55,4 +55,10 @@ fun Tugas(modifier: Modifier = Modifier) {
                     .size(120.dp)
                     .padding(bottom = 24.dp)
             )
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
     }
