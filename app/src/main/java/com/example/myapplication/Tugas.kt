@@ -34,5 +34,12 @@ fun Tugas(modifier: Modifier = Modifier) {
                 .fillMaxSize()
                 .padding(top = 40.dp),
             horizontalAlignment = Alignment.CenterHorizontally
-        )
+        ){
+
+            Text(
+                text = "Login",
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
     }
