@@ -61,4 +61,10 @@ fun Tugas(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+            Text(
+                text = "M.Ridho Akbar",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue,
+                modifier = Modifier.padding(top = 4.dp)
     }
