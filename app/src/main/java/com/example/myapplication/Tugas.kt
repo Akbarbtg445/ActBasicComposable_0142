@@ -16,6 +16,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
 @Composable
 fun Tugas(modifier: Modifier = Modifier) {
 
@@ -34,7 +35,7 @@ fun Tugas(modifier: Modifier = Modifier) {
                 .fillMaxSize()
                 .padding(top = 40.dp),
             horizontalAlignment = Alignment.CenterHorizontally
-        ){
+        ) {
 
             Text(
                 text = "Login",
@@ -49,7 +50,7 @@ fun Tugas(modifier: Modifier = Modifier) {
                 modifier = Modifier.padding(bottom = 24.dp)
             )
             Image(
-                painter = painterResource(id = R.drawable.Heya),
+                painter = painterResource(id = R.drawable.eya),
                 contentDescription = "Logo HeyaCamp",
                 modifier = Modifier
                     .size(120.dp)
@@ -82,5 +83,16 @@ fun Tugas(modifier: Modifier = Modifier) {
                     .background(Color.White)
                     .border(4.dp, Color.White, CircleShape),
                 contentAlignment = Alignment.Center
-            )
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.profile),
+                    contentDescription = "profile",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(190.dp)
+                        .clip(CircleShape)
+                )
+            }
+        }
     }
+}
