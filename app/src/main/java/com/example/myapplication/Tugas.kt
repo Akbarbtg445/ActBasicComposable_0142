@@ -59,7 +59,7 @@ fun Tugas(modifier: Modifier = Modifier) {
                 text = "Nama",
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Red
+                color = Color.Blue
             )
             Text(
                 text = "M.Ridho Akbar",
@@ -67,4 +67,12 @@ fun Tugas(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue,
                 modifier = Modifier.padding(top = 4.dp)
+            )
+            Text(
+                text = "20000140001",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black,
+                modifier = Modifier.padding(top = 8.dp, bottom = 32.dp)
+            )
     }
